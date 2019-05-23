@@ -1,0 +1,24 @@
+:root {
+    --primaryBackgroundColor: #ffffff;
+    --primaryTextColor: #000000;
+    --secondaryBackgroundColor: #434343;
+    --secondaryTextColor: #ffffff;
+}
+
+header {
+    background-color: #434343;
+    color: #ffffff;
+    height: 80px;
+}
+
+footer {
+    background-color: #434343;
+    color: #ffffff;
+    height: 80px;
+}
+
+main {
+    background-color: var(--primaryBackgroundColor);
+    color: var(--primaryTextColour);
+    height: calc(100% - 160px);
+}
